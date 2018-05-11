@@ -7,16 +7,13 @@
     background-color: white;
     width: 150px;
     height: 20px;
-    border-width: 10px;
+    border-width: 5px solid;
     border-color: forestgreen;
     text-align: center;
     vertical-align: middle;
     font-size: 1.25rem;
 }
-section{
-    background-color: limegreen;
-    width: 100%;
-}
+
 a:hover{
     background-color: forestgreen;
     color: white;
@@ -25,8 +22,42 @@ a:hover{
 body{
     background-color: lightyellow;
 }
-h1{
+header{
     background-image: url(/clayonthetrail.github.io/youtube/images/home.jpg);
-    width: 960px;
-    height: 173px;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat,repeat;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 3%;
+}
+video{
+    width: 100px;
+    height: 75px;
+}
+#me{
+    float: right;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    border: 5px solid;
+    border-color: black;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    background-size: auto;
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width:100%;
+    height: 25px;
+    text-align: center;
+    color: darkgray;
+    opacity: .75;
 }

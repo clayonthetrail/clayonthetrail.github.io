@@ -13,3 +13,11 @@
     vertical-align: middle;
     font-size: 1.25rem;
 }
+
+:image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: none;
+    max-width: 100%;
+}
