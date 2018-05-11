@@ -1,0 +1,32 @@
+* { margin: 0; box-sizing: border-box; }
+:link{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right:10px;
+    color: darkgray;
+    background-color: white;
+    width: 150px;
+    height: 20px;
+    border-width: 10px;
+    border-color: forestgreen;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.25rem;
+}
+section{
+    background-color: limegreen;
+    width: 100%;
+}
+a:hover{
+    background-color: forestgreen;
+    color: white;
+}
+
+body{
+    background-color: lightyellow;
+}
+h1{
+    background-image: url(/clayonthetrail.github.io/youtube/images/home.jpg);
+    width: 960px;
+    height: 173px;
+}
