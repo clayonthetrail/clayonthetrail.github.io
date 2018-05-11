@@ -1,5 +1,9 @@
 * {margin: 0; box-sizing: border-box;}
 
+body{
+    background-color:seagreen
+}
+
 nav {
     position: fixed;
     top: 0px;
@@ -13,14 +17,10 @@ nav {
 
 section{
     padding-top: 100px;
-    margin: 2.0rem auto;
 }
 
 img{
-    margin:auto;
-    height:75px;
-    padding-left: 10%;
-    padding-right: 10%;
+    width:90%;
 }
 
 a:hover{
@@ -44,13 +44,21 @@ a:hover{
 }
 
 .video{
-    width:150px;
-    padding-left: 11.5%;
-    padding-right: 10%;
-    text-align: center;
+    text-decoration: none;
+    color:black;
+
 }
 
 .video:hover{
     background-color: white;
     color: darkgray;
+}
+
+figure{
+    display:inline-block;
+    margin:auto;
+    padding-left:10%;
+    padding-right:10%;
+    text-align:center;
+    padding-top: 20px
 }
