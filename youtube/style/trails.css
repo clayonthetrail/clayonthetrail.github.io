@@ -31,19 +31,22 @@ a:hover{
 }
 
 .trails{
-    width: 40%;
+    width: 80%;
     padding-top: 100px;
-    padding-left: 5%;
 }
+
 .caption{
-    width:40%;
-    text-align: center;
-    padding-left:5%;
     color:darkgray;
-    font-size: 100%;
     text-decoration: none;
 }
 
 body{
     background-color: #176604;
+}
+
+figure{
+    width:50%;
+    text-align: center;
+    padding-left:5%;
+    font-size: 100%;
 }
