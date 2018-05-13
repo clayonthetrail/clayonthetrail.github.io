@@ -25,16 +25,22 @@ nav{
     opacity: .75;
 }
 
+a:hover{
+    background-color: forestgreen;
+    color: white;
+}
+
 .trails{
-    width: 50%;
+    width: 40%;
     padding-top: 100px;
     padding-left: 5%;
 }
 .caption{
+    width:40%;
     text-align: center;
     padding-left:5%;
     color:darkgray;
-    font-size: 1.5rem;
+    font-size: 100%;
     text-decoration: none;
 }
 
