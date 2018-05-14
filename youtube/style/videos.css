@@ -1,7 +1,8 @@
 * {margin: 0; box-sizing: border-box;}
 
 body{
-    background-color: #176604;
+    background-image:url(/clayonthetrail.github.io/youtube/images/background.JPG);
+    background-size: cover;
 }
 
 nav {
@@ -57,14 +58,16 @@ a:hover{
 figure{
     display:inline-block;
     margin:auto;
-    padding-left:6%;
-    padding-right:6%;
+    padding-left:7%;
+    padding-right:7%;
     text-align:center;
     padding-top: 20px;
+
 }
 
 section{
-    align-content: center;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #row5{

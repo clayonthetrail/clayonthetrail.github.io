@@ -41,7 +41,8 @@ a:hover{
 }
 
 body{
-    background-color: #176604;
+    background-image:url(/clayonthetrail.github.io/youtube/images/background.JPG);
+    background-size: cover;
 }
 
 figure{
