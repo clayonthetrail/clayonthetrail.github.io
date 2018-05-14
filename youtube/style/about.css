@@ -14,6 +14,11 @@
     font-size: 1.25rem;
 }
 
+.link:hover{
+    background-color: forestgreen;
+    color: white;
+}
+
 nav{
     position: fixed;
     top: 0px;
@@ -25,7 +30,19 @@ nav{
     opacity: .75;
 }
 
-a:hover{
-    background-color: forestgreen;
-    color: white;
+body{
+    background: linear-gradient(rgba(220, 220, 220, .6), rgba(220, 220, 220, .6)),
+        url(/clayonthetrail.github.io/youtube/images/background.JPG) no-repeat fixed;
+    background-size: cover;
+}
+
+footer{
+    height:auto;
+    width:100%;
+    background-color:black;
+    opacity:.5;
+    color:white;
+    text-align: center;
+    position:fixed;
+    bottom:0;
 }

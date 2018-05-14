@@ -25,7 +25,7 @@ nav{
     opacity: .75;
 }
 
-a:hover{
+.link:hover{
     background-color: forestgreen;
     color: white;
 }
@@ -36,12 +36,15 @@ a:hover{
 }
 
 .caption{
-    color:darkgray;
     text-decoration: none;
+    padding:.5%;
+    color: black;
+    font-weight:bold;
 }
 
 body{
-    background-image:url(/clayonthetrail.github.io/youtube/images/background.JPG);
+    background: linear-gradient(rgba(220, 220, 220, .6), rgba(220, 220, 220, .6)),
+        url(/clayonthetrail.github.io/youtube/images/background.JPG) no-repeat fixed;
     background-size: cover;
 }
 
@@ -50,4 +53,13 @@ figure{
     text-align: center;
     padding-left:5%;
     font-size: 100%;
+}
+
+footer{
+    height:auto;
+    width:100%;
+    background-color:black;
+    opacity:.5;
+    color:white;
+    text-align: center;
 }

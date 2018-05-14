@@ -20,7 +20,7 @@ nav{
 
 
 body{
-    background-color: #176604;
+    background-color:lightyellow;
 }
 
 header{
@@ -37,12 +37,14 @@ h1{
 }
 
 footer{
-    background-color: forestgreen;
-    height: 25px;
+    height:auto;
+    width:100%;
+    background-color:black;
+    opacity:.5;
+    color:white;
     text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    position:fixed;
+    bottom:0;
 }
 
 h2{

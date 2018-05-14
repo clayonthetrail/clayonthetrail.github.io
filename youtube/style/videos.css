@@ -1,7 +1,8 @@
 * {margin: 0; box-sizing: border-box;}
 
 body{
-    background-image:url(/clayonthetrail.github.io/youtube/images/background.JPG);
+    background: linear-gradient(rgba(220, 220, 220, .6), rgba(220, 220, 220, .6)),
+        url(/clayonthetrail.github.io/youtube/images/background.JPG) no-repeat fixed;
     background-size: cover;
 }
 
@@ -22,9 +23,10 @@ nav {
 
 img{
     width:80%;
+    padding-bottom:2%;
 }
 
-a:hover{
+.link:hover{
     background-color: forestgreen;
     color: white;
 }
@@ -45,14 +47,10 @@ a:hover{
 }
 
 .video{
+    padding:.5%;
     text-decoration: none;
-    color:black;
-
-}
-
-.video:hover{
-    background-color:seagreen;
-    color: darkgray;
+    color: black;
+    font-weight:bold;
 }
 
 figure{
@@ -61,7 +59,7 @@ figure{
     padding-left:7%;
     padding-right:7%;
     text-align:center;
-    padding-top: 20px;
+    padding-top: 5%;
 
 }
 
