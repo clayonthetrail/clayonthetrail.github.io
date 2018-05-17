@@ -28,9 +28,10 @@ nav{
     color: white;
 }
 
-.trails{
-    width: 80%;
+.trails1{
+    width: 350px;
     padding-top: 100px;
+    display: inline-block;
 }
 
 .caption{
@@ -47,10 +48,12 @@ body{
 }
 
 figure{
-    width:50%;
-    text-align: center;
-    padding-left:5%;
-    font-size: 100%;
+    display:inline-block;
+    margin:auto;
+    padding-left:11%;
+    padding-right:11%;
+    text-align:center;
+    padding-top: 5%;
 }
 
 footer{
@@ -62,4 +65,14 @@ footer{
     text-align: center;
     position:fixed;
     bottom:0;
+}
+
+.row1{
+    display: inline-block;
+    margin:0 auto;
+    width: 100%;
+}
+
+#last{
+    padding-bottom: 10%;
 }
