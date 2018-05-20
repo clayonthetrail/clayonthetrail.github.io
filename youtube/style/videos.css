@@ -83,20 +83,17 @@ img{
     width: 210px;
 }
 
-/*
 .grid-container{
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 100px;
-    grid-row-gap: 15px;
-    justify-content: center;
-    align-content: center;
-}
-*/
-
-.flex-container{
-    display: flex;
-    grid-template-columns: auto auto auto;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.grid-item{
+    margin: 25px;
+}
+
+main{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }

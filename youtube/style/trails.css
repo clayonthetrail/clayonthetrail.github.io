@@ -1,17 +1,6 @@
 * { margin: 0; box-sizing: border-box; }
-.link{
-    text-decoration: none;
-    padding-left: 5%;
-    padding-right:5%;
-    color: darkgray;
-    background-color: white;
-    width: 10%;
-    height: 20px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 1.25rem;
-}
 
+/*html elements*/
 nav{
     position: fixed;
     top: 0px;
@@ -24,30 +13,11 @@ nav{
     opacity: .75;
 }
 
-.link:hover{
-    background-color: forestgreen;
-    color: white;
-}
-
-.trails1{
-    height: 250px;
-    width: 300px;
-    padding-top: 100px;
-    display: inline-block;
-}
-
-.caption{
-    text-decoration: none;
-    padding:.5%;
-    color: black;
-    font-weight:bold;
-}
-
 body{
     background: linear-gradient(rgba(220, 220, 220, .6), rgba(220, 220, 220, .6)),
         url(/clayonthetrail.github.io/youtube/images/background.JPG) no-repeat fixed;
     background-size: cover;
-    max-width: 900px;
+    max-width: 1200px;
     text-align: center;
     margin: 0 auto;
 }
@@ -73,14 +43,54 @@ footer{
     left:0;
 }
 
-.row1{
-    display: inline-block;
-    margin:0 auto;
-    width: 100%;
+
+/*id*/
+
+/*class*/
+
+.link{
+    text-decoration: none;
+    padding-left: 5%;
+    padding-right:5%;
+    color: darkgray;
+    background-color: white;
+    width: 10%;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.25rem;
 }
 
-#last{
-    padding-bottom: 10%;
+
+
+.link:hover{
+    background-color: forestgreen;
+    color: white;
+}
+
+.trails1{
+    height: 250px;
+    width: 300px;
+    padding-top: 100px;
+    display: inline-block;
+}
+
+.caption{
+    text-decoration: none;
+    padding:.5%;
+    color: black;
+    font-weight:bold;
+}
+
+
+.grid-container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-item{
+    margin: 25px;
 }
 
 @media screen and(max-width: 600px){
