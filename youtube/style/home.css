@@ -2,7 +2,7 @@
 
 /* html tags */
 
-a:hover{
+.link:hover{
     background-color: forestgreen;
     color: white;
 }
