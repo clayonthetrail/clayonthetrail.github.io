@@ -97,3 +97,16 @@ main{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+#current{
+    text-decoration: none;
+    padding-left: 5%;
+    padding-right:5%;
+    color: white;
+    background-color: forestgreen;
+    width: 10%;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.25rem;
+}
