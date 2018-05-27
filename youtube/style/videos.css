@@ -20,10 +20,6 @@ nav {
     opacity: .75;
 }
 
-#row1{
-    padding-top: 100px;
-}
-
 img{
     width:80%;
     padding-bottom:2%;
@@ -60,10 +56,6 @@ figure{
     width: 210px;
     height: 158px;
     max-width: 210px;
-}
-
-#row5{
-    padding-bottom:10%;
 }
 
 footer{
