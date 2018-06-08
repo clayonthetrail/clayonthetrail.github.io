@@ -21,7 +21,7 @@ nav {
 
 img{
     width:80%;
-    padding-bottom:2%;
+    margin-bottom:2%;
 }
 
 .link:hover{
@@ -128,8 +128,10 @@ main{
     border: 2px clear;
     background: linear-gradient(black, blue, black);
     color: white;
+    box-shadow: 10px 10px 20px;
 }
 .youtube:hover{
     border: 2px clear;
     background: linear-gradient(red, lightpink, red);
+    box-shadow: 10px 10px 10px;
 }
