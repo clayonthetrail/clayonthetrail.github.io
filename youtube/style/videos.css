@@ -18,8 +18,9 @@ nav {
     color: darkgray;
 }
 
-img{
-    width:80%;
+iframe{
+    width: 210px;
+    height: 118px;
     margin-bottom:2%;
 }
 
