@@ -16,7 +16,7 @@ body{
     background: linear-gradient(rgba(220, 220, 220, .6), rgba(220, 220, 220, .6)),
         url(/clayonthetrail.github.io/youtube/images/background.JPG) no-repeat fixed;
     background-size: cover;
-    max-width: 1200px;
+    max-width: 320px;
     text-align: center;
     margin: 0 auto;
 }
@@ -105,50 +105,24 @@ figcaption{
 
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    flex-wrap: wrap;
+    grid-template-columns: 1fr;
     margin: 0 auto;
 }
 
 .grid-item{
-    width: 500px;
+    max-width: 300px;
     margin: 0 auto;
 }
 
 iframe.map{
     border: none;
     background-color: white;
-    width: 500px;
+    width: 300px;
     height: 430px;
     margin: 0 auto;
 }
 
-@media screen and(max-width: 800px){
-    .grid-item{
-        width: 350px;
-    }
-
-    .map{
-        width: 350px;
-    }
-}
-
-@media screen and(max-width: 400px){
 
 
-    .grid-container{
-        grid-template-columns: 1fr;
-    }
-
-    body{
-        max-width: 320px;
-    }
-
-    .map{
-        width: ;300px
-        height: 430px;
-    }
-
-}
 
 
