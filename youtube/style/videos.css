@@ -128,13 +128,13 @@ main{
 }
 
 .ugetube:hover{
-    border: 2px clear;
+    border: 2px solid black;
     background: linear-gradient(black, blue, black);
     color: white;
     box-shadow: 10px 10px 20px;
 }
 .youtube:hover{
-    border: 2px clear;
+    border: 2px solid red;
     background: linear-gradient(red, lightpink, red);
     box-shadow: -10px 10px 10px;
 }
