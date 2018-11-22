@@ -93,23 +93,6 @@ iframe{
     margin-bottom:2%;
 }
 
-.link:hover{
-    background-color: forestgreen;
-    color: white;
-}
-
-.link{
-    text-decoration: none;
-    padding-left: 5%;
-    padding-right:5%;
-    color: black;
-    width: 10%;
-    height: 20px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 1.25rem;
-}
-
 .video{
     padding-bottom:10px;
     text-decoration: none;
