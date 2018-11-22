@@ -87,6 +87,14 @@ footer p{
     border-radius: 50%;
 }
 
+figure{
+    text-align: center;
+}
+
+figure h1{
+    font-size: 1.0rem;
+}
+
 @media only screen and (min-width: 800px) {
     nav{
         background-color: rgba(255, 255, 255, .8);
