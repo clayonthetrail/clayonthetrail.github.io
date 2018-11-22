@@ -1,5 +1,9 @@
 * {margin: 0; box-sizing: border-box;}
 
+main{
+    margin: 0 0 150 0;
+}
+
 header{
     text-align: center;
 }
@@ -38,13 +42,18 @@ ul li a{
     color: white;
 }
 
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
 ul li{
     list-style-type: none;
 }
 
-ul{
-    background-color: forestgreen;
-    width: 100%;
+ul li.active{
+    background-color: darkgray;
 }
 
 ul.responsive{
