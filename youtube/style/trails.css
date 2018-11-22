@@ -104,23 +104,6 @@ figcaption{
     background: linear-gradient(rgb(40,184,40), rgb(92,184,92), rgb(40,184,40));
 }
 
-.link{
-    text-decoration: none;
-    padding-left: 5%;
-    padding-right:5%;
-    color: black;
-    width: 10%;
-    height: 20px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 1.25rem;
-}
-
-.link:hover{
-    background-color: forestgreen;
-    color: white;
-}
-
 .caption{
     background-color: rgb(92,184,92);
     border-radius: 12px;
