@@ -119,6 +119,10 @@ figure h1{
         text-align: center;
     }
 
+    ul li a{
+        font-size: 1.0rem;
+    }
+
     ul#topnav{
         display: flex;
         justify-content: space-around;
