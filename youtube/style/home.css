@@ -7,17 +7,6 @@
     color: white;
 }
 
-nav{
-    position: fixed;
-    top: 0px;
-    background: rgba(220, 220, 220, .8);
-    width:100%;
-    height: 25px;
-    text-align: center;
-    color: darkgray;
-}
-
-
 body{
     background-color:lightyellow;
 }
@@ -60,18 +49,6 @@ main{
 }
 /* classes */
 
-.link{
-    text-decoration: none;
-    padding-left: 5%;
-    padding-right:5%;
-    color: black;
-    width: 10%;
-    height: 20px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 1.25rem;
-}
-
 /* id's */
 
 #me{
@@ -85,15 +62,75 @@ main{
     width: auto;
 }
 
-#current{
-    text-decoration: none;
-    padding-left: 5%;
-    padding-right:5%;
-    color: white;
+nav{
+    background-color: rgba(255, 255, 255, .8)
+}
+
+#topnav li{
+    list-style-type: none;
+}
+
+#topnav li:hover{
     background-color: forestgreen;
-    width: 10%;
-    height: 20px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 1.25rem;
+}
+
+
+button.icon{
+    display: flex;
+    position: absolute;
+    right: 0;
+    color: rgb(0, 0, 0);
+    background: none;
+    margin: 10px 10px 0 10px;
+    border: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#topnav{
+}
+
+#topnav li a{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+
+.responsive{
+    display: none;
+}
+
+.active{
+    background-color: forestgreen;
+    color: white;
+}
+
+@media only screen and (min-width: 800px) {
+    button.icon{
+        display: none;
+    }
+
+    nav{
+        height: 23px;
+        width: 100%;
+        }
+    }
+
+    #topnav{
+        margin: 0 auto;
+        width: 800px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    #topnav li{
+        height: 20px;
+        width: 120px;
+        text-align: center;
+    }
+
+    #topnav li a{
+        text-decoration: none;
+        height: 20px;
+    }
 }

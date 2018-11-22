@@ -1,47 +1,97 @@
-* { margin: 0; box-sizing: border-box; }
+* {margin: 0; box-sizing: border-box;}
 
-/*html elements*/
+header{
+    text-align: center;
+}
+
+header a img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+header{
+    padding: 20px 0 35px 0;
+}
+
+main h2{
+    padding: 0 10% 0 10%;
+}
+
 nav{
     position: fixed;
-    top: 0px;
-    left:0px;
-    background: rgba(220, 220, 220, .8);
-    width:100%;
-    height: 25px;
-    text-align: center;
-    color: darkgray;
+    top: 0;
+    width: 100%;
 }
 
 body{
-    background: linear-gradient(rgba(220, 220, 220, .6), rgba(220, 220, 220, .6)),
-        url(/clayonthetrail.github.io/youtube/images/background.JPG) no-repeat fixed;
-    background-size: cover;
-    max-width: 320px;
-    text-align: center;
-    margin: 0 auto;
+    background: linear-gradient(rgba(255, 255, 255,.6), rgba(255, 255, 255, .6)), url(/clayonthetrail.github.io/youtube/images/background.JPG) no-repeat fixed;
+    background-size: cover
 }
+
+header h1{
+    text-align: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul{
+    background-color: forestgreen;
+    width: 100%;
+}
+
+ul.responsive{
+    display: none;
+}
+
+button.icon{
+    padding: 10px 10px 0 0;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    float: right;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(rgba(34, 139, 34, 0), rgba(34, 139, 34), rgba(34, 139, 34), rgba(34, 139, 34));
+    padding: 20px 0 0 0;
+}
+
+footer h3{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+.fa {
+    padding: 7px 0 0 0;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
 
 figure{
     margin: 10px auto 10pc auto;
     text-align:center;
     padding-top: 5%;
-}
-
-footer{
-    height:auto;
-    width:100%;
-    background-color:black;
-    opacity:.5;
-    color:white;
-    text-align: center;
-    position:fixed;
-    bottom:0;
-    left:0;
-}
-
-main{
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 figcaption{
@@ -54,23 +104,6 @@ figcaption{
     background: linear-gradient(rgb(40,184,40), rgb(92,184,92), rgb(40,184,40));
 }
 
-/*id*/
-
-#current{
-    text-decoration: none;
-    padding-left: 5%;
-    padding-right:5%;
-    color: white;
-    background-color: forestgreen;
-    width: 10%;
-    height: 20px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 1.25rem;
-}
-
-/*class*/
-
 .link{
     text-decoration: none;
     padding-left: 5%;
@@ -82,8 +115,6 @@ figcaption{
     vertical-align: middle;
     font-size: 1.25rem;
 }
-
-
 
 .link:hover{
     background-color: forestgreen;
@@ -101,7 +132,6 @@ figcaption{
     font-weight: bold;
     padding: 5px;
 }
-
 
 .grid-container{
     display: grid;
@@ -122,7 +152,87 @@ iframe.map{
     margin: 0 auto;
 }
 
+@media only screen and (min-width: 800px) {
+
+    body{
+        margin: 0 auto:
+        max-width: 800px;
+    }
+
+    nav{
+        background-color: rgba(255, 255, 255, .8);
+    }
+
+    ul{
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    ul li{
+        height: 20px;
+        width: 100px;
+        text-align: center;
+    }
+
+    ul#topnav{
+        display: flex;
+        justify-content: space-around;
+        background: none;
+    }
+
+    ul#topnav li a{
+        color: black;
+    }
+
+    ul li:hover{
+        background-color: forestgreen;
+        color: white;
+        transition: 1s;
+    }
+
+    ul li.active{
+        background-color: forestgreen;
+    }
+
+    ul li.active a{
+        color: white;
+    }
+
+    button.icon{
+        display: none;
+    }
+
+    body{
+        max-width: 600px;
+    }
+
+    .grid-item{
+        max-width: 500px;
+    }
+
+    iframe.map{
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
 
 
+    body{
+        max-width: 1500px;
+    }
 
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
 
+    .grid-item{
+        max-width: 500px;
+    }
+
+    iframe.map{
+        width: 500px;
+        height: 430px;
+    }
+
+}
