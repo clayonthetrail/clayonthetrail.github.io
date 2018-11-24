@@ -37,6 +37,11 @@ header h1{
     text-align: center;
 }
 
+ul{
+    background-color: rgb(34, 139, 34);
+    width: 100%;
+}
+
 ul li a{
     text-decoration: none;
     color: white;
