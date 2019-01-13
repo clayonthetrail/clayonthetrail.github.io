@@ -29,7 +29,7 @@ nav{
 }
 
 body{
-    background: linear-gradient(rgba(255, 255, 255,.6), rgba(255, 255, 255, .6)), url(/clayonthetrail.github.io/youtube/images/background.JPG) no-repeat fixed;
+    background: linear-gradient(rgba(255, 255, 255,.6), rgba(255, 255, 255, .6)), url(/clayonthetrail.github.io/images/background.JPG) no-repeat fixed;
     background-size: cover
 }
 

@@ -1,7 +1,7 @@
 * {margin: 0; box-sizing: border-box;}
 
 main{
-    margin: 0 0 150px 0;
+    margin: 0 0 150 0;
 }
 
 header{
@@ -29,7 +29,7 @@ nav{
 }
 
 body{
-    background: linear-gradient(rgba(255, 255, 255,.6), rgba(255, 255, 255, .6)), url(/clayonthetrail.github.io/youtube/images/background.JPG) no-repeat fixed;
+    background: linear-gradient(rgba(255, 255, 255,.6), rgba(255, 255, 255, .6)), url(/clayonthetrail.github.io/images/background.JPG) no-repeat fixed;
     background-size: cover
 }
 
@@ -97,40 +97,65 @@ footer p{
     border-radius: 50%;
 }
 
-.paragraph{
-    font-size: 1.5rem;
-    width: 80%;
-    margin: 40px auto;
+
+figure{
+    margin: 10px auto 10pc auto;
+    text-align:center;
+    padding-top: 5%;
+}
+
+figcaption{
+    margin: 15px auto 0 auto;
+    height: 25px;
+    text-align: center;
+}
+
+.caption:hover{
+    background: linear-gradient(rgb(40,184,40), rgb(92,184,92), rgb(40,184,40));
+}
+
+.caption{
+    background-color: rgb(92,184,92);
+    border-radius: 12px;
+    min-width: 400px;
+    max-width: 500px;
+    width: 100%;
+    text-decoration: none;
+    color: white;
     font-weight: bold;
+    padding: 5px;
 }
 
-#me{
-    float: left;
-    padding: 0 10px 0 0;
-    max-height: 200px;
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
 }
 
-#highline{
-    float:right;
-    max-height:200px;
+.grid-item{
+    max-width: 300px;
+    margin: 0 auto;
 }
 
-#yellowstone{
-    float: left;
-    max-height: 200px;
-    margin: 20px;
-}
-
-#rat{
-    float: right;
-    max-height: 200px;
-    margin: 20px;
+iframe.map{
+    border: none;
+    background-color: white;
+    width: 300px;
+    height: 430px;
+    margin: 0 auto;
 }
 
 @media only screen and (min-width: 800px) {
+
+    body{
+        margin: 0 auto:
+        max-width: 800px;
+    }
+
     nav{
         background-color: rgba(255, 255, 255, .8);
     }
+
     ul{
         width: 700px;
         margin: 0 auto;
@@ -173,4 +198,38 @@ footer p{
     button.icon{
         display: none;
     }
+
+    body{
+        max-width: 600px;
+    }
+
+    .grid-item{
+        max-width: 500px;
+    }
+
+    iframe.map{
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+
+    body{
+        max-width: 1500px;
+    }
+
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-item{
+        max-width: 500px;
+    }
+
+    iframe.map{
+        width: 500px;
+        height: 430px;
+    }
+
 }

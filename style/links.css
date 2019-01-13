@@ -29,7 +29,7 @@ nav{
 }
 
 body{
-    background: linear-gradient(rgba(255, 255, 255,.6), rgba(255, 255, 255, .6)), url(/clayonthetrail.github.io/youtube/images/background.JPG) no-repeat fixed;
+    background: linear-gradient(rgba(255, 255, 255,.6), rgba(255, 255, 255, .6)), url(/clayonthetrail.github.io/images/background.JPG) no-repeat fixed;
     background-size: cover
 }
 
@@ -97,9 +97,12 @@ footer p{
     border-radius: 50%;
 }
 
-main h1{
+figure{
     text-align: center;
-    font-size: 1.5rem;
+}
+
+figure h1{
+    font-size: 1.0rem;
 }
 
 @media only screen and (min-width: 800px) {
