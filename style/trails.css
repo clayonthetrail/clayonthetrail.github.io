@@ -1,7 +1,7 @@
 * {margin: 0; box-sizing: border-box;}
 
 main{
-    margin: 0 0 150 0;
+    margin: 0 0 150px 0;
 }
 
 header{
@@ -30,7 +30,7 @@ nav{
 
 body{
     background: linear-gradient(rgba(255, 255, 255,.6), rgba(255, 255, 255, .6)), url(/clayonthetrail.github.io/images/background.JPG) no-repeat fixed;
-    background-size: cover
+    background-size: cover;
 }
 
 header h1{
@@ -148,7 +148,7 @@ iframe.map{
 @media only screen and (min-width: 800px) {
 
     body{
-        margin: 0 auto:
+        margin: 0 auto;
         max-width: 800px;
     }
 
