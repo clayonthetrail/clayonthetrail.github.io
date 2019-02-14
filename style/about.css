@@ -97,7 +97,7 @@ footer p{
 }
 
 .paragraph{
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     width: 80%;
     margin: 40px auto;
     font-weight: bold;
@@ -105,31 +105,62 @@ footer p{
 
 #me{
     float: left;
-    padding: 0 10px 0 0;
-    max-height: 200px;
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 #highline{
     float:right;
-    max-height:200px;
+    margin: 0 auto;
+    width: 250px;
+    padding: 20px;
 }
 
 #yellowstone{
     float: left;
-    max-height: 200px;
-    margin: 20px;
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 #rat{
     float: right;
-    max-height: 200px;
-    margin: 20px;
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 @media only screen and (min-width: 800px) {
+
+    #me{
+        width: 350px;
+        padding: 0 20px 0 0;
+    }
+
+    #highline{
+        width: 350px;
+        padding: 0 0 20px 0;
+    }
+
+    #yellowstone{
+        width: 350px;
+        padding: 0 20px 0 0;
+    }
+
+    #rat{
+        width: 350px;
+        padding: 0 0 0 20px;
+    }
+
+    p.paragraph{
+        font-size: 1.25rem;
+    }
+
     nav{
         background-color: rgba(255, 255, 255, .8);
     }
+
     ul{
         width: 700px;
         margin: 0 auto;
