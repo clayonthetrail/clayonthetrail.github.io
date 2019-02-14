@@ -177,14 +177,17 @@ iframe.map{
         background: none;
     }
 
-    ul#topnav li a{
+    ul li a{
         color: black;
     }
 
     ul li:hover{
         background-color: forestgreen;
-        color: white;
         transition: 1s;
+    }
+
+    ul li:hover a{
+        color: white;
     }
 
     ul li.active{

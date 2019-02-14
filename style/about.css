@@ -39,7 +39,6 @@ header h1{
 
 ul li a{
     text-decoration: none;
-    color: white;
     font-size: 1.5rem;
 }
 
@@ -152,14 +151,17 @@ footer p{
         background: none;
     }
 
-    ul#topnav li a{
+    ul li a{
         color: black;
     }
 
     ul li:hover{
         background-color: forestgreen;
-        color: white;
         transition: 1s;
+    }
+
+    ul li:hover a{
+        color: white;
     }
 
     ul li.active{
