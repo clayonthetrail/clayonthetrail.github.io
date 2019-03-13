@@ -24,12 +24,11 @@
         <header w3-include-html="header.html"></header>
         <main>
             <?php
-            $myApiKey="AIzaSyCp_vUH--23sRfU4nYYBp32KNaqiFfU7K"; // Provide your API Key
-            $myChannelID="UCN9yXb-9EjAEaatdRq0yNOA"; // Provide your Channel ID
-            $maxResults="1000"; // Number of results to display
-
+            //$myApiKey="AIzaSyCp_vUH--23sRfU4nYYBp32KNaqiFfU7K"; // Provide your API Key
+            //$myChannelID="UCN9yXb-9EjAEaatdRq0yNOA"; // Provide your Channel ID
+            //$maxResults="1000"; // Number of results to display
             // Make an API call to store list of videos to JSON variable
-            $myQuery = "https://www.googleapis.com/youtube/v3/search?key=$myApiKey&channelId=$myChannelID&part=snippet,id&order=date&maxResults=$maxResults";
+            $myQuery = "https://www.googleapis.com/youtube/v3/search?key=AIzaSyCp_vUH--23sRfU4nYYBp32KNaqiFfU7K&channelId=UCN9yXb-9EjAEaatdRq0yNOA&part=snippet,id&order=date";
             $videoList = file_get_contents($myQuery);
 
             // Convert JSON to PHP Array
@@ -47,13 +46,13 @@
                 echo "
 <p style='display:inline-block;width:200px;margin:10px;text-align:center;vertical-align:top'>";
                 echo "<img src='$thumbnail'>
-    ";
+";
                 echo "<strong>$title</strong>
-    ";
+";
                 echo "<small>$description</small>";
                 echo "
 
-    ";
+";
             }
             ?>
         </main>
